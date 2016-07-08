@@ -11,3 +11,6 @@ apk add redis
 
 mkdir /etc/service/redis
 mv /install/redis-run /etc/service/redis/run
+
+mkdir /etc/service/redis-sentinel
+mv /install/redis-sentinel-run /etc/service/redis-sentinel/run

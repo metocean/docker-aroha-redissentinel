@@ -1,0 +1,2 @@
+#!/bin/sh
+exec redis-server --sentinel /sentinel.conf
